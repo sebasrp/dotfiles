@@ -12,6 +12,7 @@ export TERM="xterm-256color"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="spaceship"
+#ZSH_THEME="bullet-train"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -119,3 +120,7 @@ if [[ $(print -P "%#") =~ "#" ]]; then
 fi
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{yellow}%} $user_symbol%{%b%f%k%F{yellow}%} %{%f%}"
 
+###
+# spaceship theme specific
+###
+SPACESHIP_TIME_SHOW=true
