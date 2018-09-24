@@ -1,6 +1,6 @@
 # Zsh
 
-   ├── .oh_my.zsh                Zsh theme and plugins
+    ├── .oh_my.zsh                Zsh theme and plugins
     ├── .zsh
     │   ├── aliases.zsh
     │   ├── config.zsh            Configure shell behavior
