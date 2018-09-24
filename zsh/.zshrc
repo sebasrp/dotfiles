@@ -103,6 +103,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+HISTSIZE=130000
+SAVEHIST=130000
+
+
 ###
 # PowerLevel9K specific
 ###
@@ -124,3 +128,4 @@ POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{yellow}%} $user_symbo
 # spaceship theme specific
 ###
 SPACESHIP_TIME_SHOW=true
+
