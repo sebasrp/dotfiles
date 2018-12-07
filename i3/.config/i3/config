@@ -141,6 +141,10 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
+# Move the current workspace to the next output
+# (effectively toggles when you only have two outputs)
+bindsym $mod+Shift+x move workspace to output right
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -179,7 +183,7 @@ bindsym $mod+r mode "resize"
 mode "monitor" {
 	bindsym 1 mode "default"; exec --no-startup-id ~/.autorandr/autorandr.py --load laptop; exec --no-startup-id "i3-msg 'workspace 1, move workspace to output eDP-1'"
 	bindsym 2 mode "default"; exec --no-startup-id ~/.autorandr/autorandr.py --load dual; exec --no-startup-id "i3-msg restart"
-	bindsym r mode "default"; exec --no-startup-id ~/.autorandr/autorandr.py --change; exec --no-startup-id "icri3-msg 'workspace 1, move workspace to output eDP-1'"
+	bindsym r mode "default"; exec --no-startup-id ~/.autorandr/autorandr.py --change; exec --no-startup-id "i3-msg 'workspace 1, move workspace to output eDP-1'"
 	# bindsym 2 mode "default"; exec --no-startup-id ~/.autorandr/autorandr.py --load dual; exec --no-startup-id "i3-msg 'workspace 1, move workspace to output eDP-1'"
 
 	# back to normal: Enter or Escape or $mod+m
