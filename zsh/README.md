@@ -19,4 +19,6 @@ Others packages define environment variables or functions by writing shell files
 
 - `oh-my-zsh` <<https://github.com/robbyrussell/oh-my-zsh>>
 - `spaceship` <<https://github.com/denysdovhan/spaceship-prompt>>
-
+- `grc` - `brew install grc`
+- `npm` - `brew install npm`
+- 'zsh-syntax-highlighting' - `brew install zsh-syntax-highlighting`

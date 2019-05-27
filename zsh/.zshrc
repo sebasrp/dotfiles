@@ -8,4 +8,4 @@ do
   source $file
 done
 
-eval "$(direnv hook zsh)"
+#eval "$(direnv hook zsh)"
