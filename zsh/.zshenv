@@ -4,10 +4,8 @@
 export VISUAL=subl
 export EDITOR=vim
 export PAGER=more
-export PATH=$PATH:~/bin:/usr/local/bin:$HOME/.toolbox/bin
 
 # load zsh config files
-
 env_config_files=(~/.zsh/**/*.zshenv(N))
 if test ! -z "$env_config_files" ;
     then

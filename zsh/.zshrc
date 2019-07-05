@@ -1,3 +1,8 @@
+# put homnebrew bins first thing
+export PATH="/usr/local/bin:$PATH"
+
+export PATH=$PATH:~/bin:/usr/local/bin:$HOME/.toolbox/bin
+
 # files to source in priority
 source $HOME/.oh_my.zsh
 
@@ -8,4 +13,5 @@ do
   source $file
 done
 
-#eval "$(direnv hook zsh)"
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
