@@ -28,6 +28,7 @@ POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{yellow}%} $user_symbo
 # spaceship theme specific
 ###
 SPACESHIP_TIME_SHOW=true
+SPACESHIP_KUBECONTEXT_SHOW=false
 
 plugins=(
   git
