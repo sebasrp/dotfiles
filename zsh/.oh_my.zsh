@@ -34,6 +34,10 @@ plugins=(
   git
   zsh-syntax-highlighting
   sublime
+  colored-man-pages
+  tmux
+  sudo
+  vscode
 )
 
 source $ZSH/oh-my-zsh.sh

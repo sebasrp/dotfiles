@@ -21,4 +21,4 @@ Others packages define environment variables or functions by writing shell files
 - `spaceship` <<https://github.com/denysdovhan/spaceship-prompt>>
 - `grc` - `brew install grc`
 - `npm` - `brew install npm`
-- 'zsh-syntax-highlighting' - `brew install zsh-syntax-highlighting`
+- 'zsh-syntax-highlighting' - `brew install zsh-syntax-highlighting` OR `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
