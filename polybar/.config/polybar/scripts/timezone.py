@@ -9,13 +9,13 @@ cycle_interval = 10
 date_format = "%l:%M %p"
 
 timezones_with_flag = [
-	("🇺🇸 MPK", "US/Pacific"),
+	("🇺🇸 SEA", "US/Pacific"),
 	("🇮🇪 DUB", "Europe/Dublin"),
 	("🇸🇬 SG", "Asia/Hong_Kong"),
 ]
 
 timezones = [
-	("MPK", "US/Pacific"),
+	("SEA", "US/Pacific"),
 	("DUB", "Europe/Dublin"),
 	("SG", "Asia/Hong_Kong"),
 ]
