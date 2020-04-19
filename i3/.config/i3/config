@@ -31,7 +31,7 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec gnome-terminal
-bindsym $mod+Return exec urxvt256c-ml
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -209,7 +209,6 @@ exec --no-startup-id nitrogen --restore
 exec --no-startup-id dunst -style ~/.config/dunst/dunstrc
 exec --no-startup-id xautolock -time 5 -locker ~/.config/i3/scripts/lock.sh -detectsleep -corners --00
 exec --no-startuo-id compton --style ~/.config/compton/compton.conf
-exec --no-startup-id dropbox start
 
 ###
 # Other startup setup
