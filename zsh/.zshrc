@@ -2,6 +2,10 @@
 export PATH="/usr/local/bin:$PATH"
 
 export PATH=$PATH:~/bin:/usr/local/bin:$HOME/.toolbox/bin
+export PATH="/home/sebasr/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 
 # files to source in priority
 source $HOME/.oh_my.zsh
