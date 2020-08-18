@@ -1,6 +1,3 @@
-# Tell grep to highlight matches
-export GREP_OPTIONS='--color=auto'
-
 # Adding grc aliases
 alias colourify="grc -es --colour=auto"
 alias configure='colourify ./configure'
