@@ -208,11 +208,11 @@ exec --no-startup-id parcellite
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id dunst -style ~/.config/dunst/dunstrc
 exec --no-startup-id xautolock -time 60 -locker ~/.config/i3/scripts/lock.sh -detectsleep -corners --00
-exec --no-startuo-id compton --style ~/.config/compton/compton.conf
+exec --no-startup-id compton --style ~/.config/compton/compton.conf
 
 ###
 # Other startup setup
 ###
 
 # Load the keyboard overrides
-exec xmodmap ~/.Xmodmap
+#exec xmodmap ~/.Xmodmap
