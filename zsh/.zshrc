@@ -1,5 +1,6 @@
 # put homnebrew bins first thing
 export PATH="/usr/local/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
 
 export PATH=$PATH:~/bin:/usr/local/bin:$HOME/.toolbox/bin
 export PATH="/home/sebasr/.pyenv/bin:$PATH"
