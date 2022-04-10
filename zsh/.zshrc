@@ -11,7 +11,6 @@ export PATH=$PATH:~/bin:/usr/local/bin:$HOME/.toolbox/bin
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-<<<<<<< HEAD
 # for flutter
 export JAVA_HOME='/usr/lib/jvm/java-11-openjdk'
 export PATH=$JAVA_HOME/bin:$PATH
@@ -22,7 +21,7 @@ export ANDROID_SDK_ROOT=$HOME/Android/Sdk
 export ANDROID_AVD_HOME=$HOME/.android/avd
 
 export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
-=======
+
 # java specifics
 #export PATH="/usr/local/opt/openjdk/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
@@ -37,7 +36,6 @@ export ANDROID_TOOLS="/Users/sebastian.rodriguez/Library/Android/sdk/tools"
 mkdir -p $HOME/go/{src,pkg,bin}
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
->>>>>>> 4508e8d28c6823150c9fad4b155e5294f01fd98f
 
 # files to source in priority
 source $HOME/.oh_my.zsh
