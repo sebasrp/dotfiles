@@ -4,6 +4,7 @@
 export VISUAL=subl
 export EDITOR=vim
 export PAGER=more
+export TZ_LIST="Europe/Berlin;DE,Asia/Singapore;SG"
 
 # load zsh config files
 env_config_files=(~/.zsh/**/*.zshenv(N))

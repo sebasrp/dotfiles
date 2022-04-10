@@ -38,6 +38,10 @@ plugins=(
   tmux
   sudo
   vscode
+  pip
+  python
+  brew
+  macos
 )
 
 source $ZSH/oh-my-zsh.sh
