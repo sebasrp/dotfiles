@@ -181,7 +181,7 @@ bindsym $mod+r mode "resize"
 
 # Enable/disable monitors
 mode "monitor" {
-    bindsym 1 mode "default"; exec --no-startup-id ~/.autorandr/autorandr.py --load laptop; exec --no-startup-id "i3-msg 'workspace 1, move workspace to output eDP-1'"
+    bindsym 1 mode "default"; exec --no-startup-id $HOME/.config/i3/scripts/dual_v27_h34.sh;
     bindsym 2 mode "default"; exec --no-startup-id ~/.autorandr/autorandr.py --load dual; exec --no-startup-id "i3-msg restart"
     bindsym r mode "default"; exec --no-startup-id "xrandr -s 0";
     # bindsym 2 mode "default"; exec --no-startup-id ~/.autorandr/autorandr.py --load dual; exec --no-startup-id "i3-msg 'workspace 1, move workspace to output eDP-1'"
@@ -213,6 +213,9 @@ exec --no-startup-id compton --style ~/.config/compton/compton.conf
 ###
 # Other startup setup
 ###
+
+# set the office monitors
+exec --no-startup-id $HOME/.config/i3/scripts/dual_v27_h34.sh
 
 # Load the keyboard overrides
 #exec xmodmap ~/.Xmodmap
