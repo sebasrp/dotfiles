@@ -1,19 +1,12 @@
 # put homnebrew bins first thing
 export PATH="/usr/local/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
+export PATH=$PATH:~/bin:/usr/local/bin:$HOME/.toolbox/bin
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+ export PATH="/home/sebasr/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
-
-export PATH=$PATH:~/bin:/usr/local/bin:$HOME/.toolbox/bin
-<<<<<<< HEAD
-#export PATH="/home/sebasr/.pyenv/bin:$PATH"
-=======
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="/home/sebasr/.pyenv/bin:$PATH"
-eval "$(pyenv init --path)"
->>>>>>> 22403f7 (update zsh for pyenv)
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
