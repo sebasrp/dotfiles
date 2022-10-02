@@ -8,6 +8,6 @@ Why Stow?
 ## Install
 
 1. clone the repository : `git clone https://github.com/sebasrp/dotfiles.git ~/.dotfiles ; cd ~/.dotfiles`
-1. install desired package via `stow <directory>`
+1. install desired package via `stow --target $HOME <directory>`
 
 When needed, special install instructions are present in package `README.md` file.
