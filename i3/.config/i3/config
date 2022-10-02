@@ -48,7 +48,9 @@ bindsym $mod+d exec rofi -show combi -combi-modi 'run#window#ssh'
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # Disable window borders
-new_window 1pixel
+default_border pixel 1
+default_floating_border pixel 1
+for_window [class="^.*"] border pixel 1
 
 # change focus
 bindsym $mod+j focus left
