@@ -19,7 +19,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 #export ANDROID_SDK_ROOT=$HOME/Android/Sdk
 #export ANDROID_AVD_HOME=$HOME/.android/avd
 
-export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
+#export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 
 # java specifics
 #export PATH="/usr/local/opt/openjdk/bin:$PATH"
