@@ -13,7 +13,7 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = "Catppuccin Macchiato"
-
+-- config.color_scheme = "Catppuccin Macchiato"
+config.color_scheme = 'Monokai (base16)'
 -- and finally, return the configuration to wezterm
 return config
