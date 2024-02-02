@@ -11,8 +11,8 @@ export PATH=$PATH:~/bin:/usr/local/bin:$HOME/.toolbox/bin
 #eval "$(pyenv virtualenv-init -)"
 
 # for flutter
-export JAVA_HOME='/usr/lib/jvm/java-11-openjdk'
-export PATH=$JAVA_HOME/bin:$PATH
+#export JAVA_HOME='/usr/lib/jvm/java-11-openjdk'
+#export PATH=$JAVA_HOME/bin:$PATH
 #export PATH="/home/snip/workspace/flutter/bin:$PATH"
 #export ANDROID_HOME=$HOME/Android/Sdk
 #export ANDROID_SDK_HOME=$HOME/Android/Sdk
@@ -37,6 +37,8 @@ export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 
 # files to source in priority
+# disable sublime plugin aliases
+zstyle ':omz:plugins:sublime' aliases no
 source $HOME/.oh_my.zsh
 
 # load zsh config files

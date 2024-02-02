@@ -33,7 +33,6 @@ SPACESHIP_KUBECONTEXT_SHOW=false
 plugins=(
   git
   zsh-syntax-highlighting
-  sublime
   colored-man-pages
   tmux
   sudo
