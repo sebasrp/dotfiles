@@ -14,7 +14,8 @@ end
 
 -- For example, changing the color scheme:
 -- config.color_scheme = "Catppuccin Macchiato"
-config.color_scheme = 'Monokai (base16)'
+-- config.color_scheme = 'Tomorrow Night Bright'
+config.color_scheme = "Dracula"
 config.font_size = 10.0
 -- and finally, return the configuration to wezterm
 return config
